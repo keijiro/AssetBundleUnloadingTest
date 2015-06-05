@@ -8,6 +8,6 @@ public class AssetBundleTool
     {
         var mainAsset = AssetDatabase.LoadMainAssetAtPath("Assets/Constructor/Constructor.fbx");
         Object[] assets = { mainAsset };
-        BuildPipeline.BuildAssetBundle(mainAsset, assets, "Assets/StreamingAssets/test");
+        BuildPipeline.BuildAssetBundle(mainAsset, assets, "Assets/StreamingAssets/test", BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets, BuildTarget.iPhone);
     }
 }

@@ -68,7 +68,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Company.ProductName
+  iPhoneBundleIdentifier: jp.unity3d.assetbundleunloading
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 608bce909ddd443d98675cdefc74b1ce
@@ -262,8 +262,8 @@ PlayerSettings:
   intPropertyNames:
   - iOS::Architecture
   - iOS::ScriptingBackend
-  iOS::Architecture: 2
-  iOS::ScriptingBackend: 0
+  iOS::Architecture: 0
+  iOS::ScriptingBackend: 1
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
   unityForwardCompatibleVersion: 39
